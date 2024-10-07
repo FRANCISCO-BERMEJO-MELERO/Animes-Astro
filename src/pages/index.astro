@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ContainerCard from '../components/ContainerCard.jsx';
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+		<ContainerCard Nombre="Naruto" client:load/>
+		<ContainerCard Nombre="One Piece" client:load/>
+		<ContainerCard Nombre="Bleach" client:load/>
+	</main>
+</Layout>
+
+<style>
+	
+</style>
